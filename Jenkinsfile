@@ -15,7 +15,7 @@ pipeline{
             }
         steps('deploy'){
             steps{
-                sh 'echo "deploying phase'
+                sh 'echo "deploying phase"'
             }
         }
         }
