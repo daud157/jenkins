@@ -14,6 +14,11 @@ pipeline {
               sh 'echo "i  am testing my application"'           
             }
         }
+        stage('deploy'){
+            steps{
+                sh 'echo "deploying phase '
+            }
+        }
     }
 }
 
