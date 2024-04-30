@@ -12,13 +12,13 @@ pipeline{
                 sh 'echo "Test is running"'
 
             
-            }
+            } }
         steps('deploy'){
             steps{
                 sh 'echo "deploying phase"'
             }
         }
-        }
+        
     }
 
 
